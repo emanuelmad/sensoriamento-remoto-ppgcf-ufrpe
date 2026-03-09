@@ -97,7 +97,7 @@ def normalize_header(lines: list[str]) -> list[str]:
 
 def write_readme(output_dir: Path, sections: list[dict[str, str]]) -> None:
     lines = [
-        "# Curso GEE | PET/UFSM",
+        "# Curso GEE | UFSM",
         "",
         "Material extraído do documento `Curso_GEE_PET.docx` e organizado em arquivos `.js` por unidade.",
         "",
@@ -150,7 +150,7 @@ def main() -> None:
     parser.add_argument("--input", required=True, help="Caminho do arquivo .docx de origem.")
     parser.add_argument(
         "--output",
-        default="cursos/gee-pet-ufsm",
+        default="cursos/gee-ufsm",
         help="Diretório de saída dentro do repositório.",
     )
     args = parser.parse_args()

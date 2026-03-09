@@ -1,4 +1,4 @@
-# Curso GEE | PET/UFSM
+# Curso GEE | UFSM
 
 Material extraído do documento `Curso_GEE_PET.docx` e organizado em arquivos `.js` por unidade.
 

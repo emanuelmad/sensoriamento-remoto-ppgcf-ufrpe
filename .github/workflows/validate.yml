@@ -29,7 +29,7 @@ jobs:
 
       - name: Validate JavaScript syntax
         run: |
-          for file in cursos/gee-pet-ufsm/codigos/*.js; do
+          for file in cursos/gee-ufsm/codigos/*.js; do
             node --check "$file"
           done
 
