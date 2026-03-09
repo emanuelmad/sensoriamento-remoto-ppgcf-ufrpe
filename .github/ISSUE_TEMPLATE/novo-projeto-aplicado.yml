@@ -1,0 +1,75 @@
+name: Novo projeto aplicado
+description: Proponha um novo estudo de caso ou projeto final para a disciplina.
+title: "[Projeto] "
+labels:
+  - projeto
+  - aplicacao
+body:
+  - type: input
+    id: tema
+    attributes:
+      label: Tema do projeto
+      placeholder: Ex. deteccao de mudancas com Landsat
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema ou pergunta
+      description: Qual problema geografico, florestal ou ambiental o projeto deve responder?
+    validations:
+      required: true
+  - type: textarea
+    id: dados
+    attributes:
+      label: Dados e sensores
+      description: Liste sensores, produtos e fontes previstas.
+    validations:
+      required: true
+  - type: textarea
+    id: saidas
+    attributes:
+      label: Saidas esperadas
+      description: Mapas, indices, classificacoes, relatorios ou figuras.
+    validations:
+      required: true
+*** Add File: .github/workflows/validate.yml
+name: Validate
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile Python modules
+        run: python -m compileall scripts projetos
+
+      - name: Validate notebooks as JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          notebooks = sorted(Path("notebooks").glob("*.ipynb"))
+          if not notebooks:
+              raise SystemExit("No notebooks found to validate.")
+
+          for path in notebooks:
+              with path.open("r", encoding="utf-8") as handle:
+                  json.load(handle)
+              print(f"validated {path}")
+          PY

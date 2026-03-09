@@ -1,10 +1,16 @@
 # Sensoriamento Remoto | PPGCF/UFRPE
 
+![Validate](https://github.com/emanuelmad/sensoriamento-remoto-ppgcf-ufrpe/actions/workflows/validate.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)
+![Repositorio](https://img.shields.io/badge/status-publicado-1f6f5b)
+
 ![Banner do curso](./assets/img/banner.svg)
 
 Repositorio da disciplina de Sensoriamento Remoto do Programa de Pos-Graduacao em Ciencias Florestais da UFRPE.
 
-Esta base foi organizada para funcionar como um repositorio de curso moderno: teoria, pratica, codigos, projetos e documentacao no mesmo lugar.
+**Docente responsavel:** Prof. Dr. Emanuel Araujo Silva
+
+Esta base foi organizada para funcionar como um repositorio de curso moderno: teoria, pratica, codigos, projetos, automacao e documentacao no mesmo lugar.
 
 ## O que este repositorio entrega
 
@@ -13,7 +19,7 @@ Esta base foi organizada para funcionar como um repositorio de curso moderno: te
 - notebooks introdutorios para demonstracoes em sala
 - scripts reutilizaveis para rotinas de sensoriamento remoto
 - estudos de caso prontos para adaptacao por semestre
-- estrutura limpa para publicar no GitHub e evoluir ao longo do tempo
+- templates de colaboracao e workflow de validacao para manter o repositorio consistente
 
 ## Para quem este material foi desenhado
 
@@ -25,6 +31,7 @@ Esta base foi organizada para funcionar como um repositorio de curso moderno: te
 
 ```text
 Aulas_SR/
+|-- .github/
 |-- assets/
 |   `-- img/
 |-- aulas/
@@ -58,6 +65,7 @@ Aulas_SR/
 - Cronograma sugerido: [docs/cronograma.md](./docs/cronograma.md)
 - Ementa e objetivos: [docs/ementa.md](./docs/ementa.md)
 - Metodologia da disciplina: [docs/metodologia.md](./docs/metodologia.md)
+- Roteiro de projetos: [docs/roteiro-projetos.md](./docs/roteiro-projetos.md)
 - Notebooks iniciais: [notebooks/README.md](./notebooks/README.md)
 - Estudos de caso: [projetos/README.md](./projetos/README.md)
 - Fontes de dados: [dados/README.md](./dados/README.md)
@@ -94,6 +102,13 @@ conda activate sensoriamento-remoto
 3. Mostre um projeto aplicado com dados reais.
 4. Feche com interpretacao tecnica e implicacoes ambientais ou florestais.
 
+## Manutencao do repositorio
+
+- `CONTRIBUTING.md` define o padrao para novas contribuicoes
+- `.github/workflows/validate.yml` verifica notebooks e scripts a cada `push`
+- `.github/ISSUE_TEMPLATE/` organiza novas aulas, melhorias e estudos de caso
+- `CODEOWNERS` centraliza a revisao no perfil responsavel
+
 ## Evolucao por semestre
 
 - crie uma branch ou tag por periodo letivo
@@ -101,13 +116,6 @@ conda activate sensoriamento-remoto
 - converta trechos repetidos em funcoes dentro de `scripts/`
 - publique novos estudos de caso dentro de `projetos/`
 
-## Git
+## Publicacao
 
-O repositorio local ja foi inicializado e recebeu commit inicial.
-
-Para publicar no GitHub:
-
-```bash
-git remote add origin <URL_DO_REPOSITORIO>
-git push -u origin main
-```
+Repositorio remoto: `https://github.com/emanuelmad/sensoriamento-remoto-ppgcf-ufrpe`
