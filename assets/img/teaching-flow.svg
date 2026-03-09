@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Fluxo didático</title>
+  <desc id="desc">Fluxo visual do processo didático do repositório, do slide ao projeto aplicado.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2630"/>
+      <stop offset="100%" stop-color="#183c4a"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#d6a351"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <text x="74" y="84" font-size="20" font-family="Georgia, 'Trebuchet MS', serif" fill="#d5d8cc">Fluxo recomendado</text>
+  <text x="74" y="124" font-size="40" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="700" fill="#ffffff">Como o repositório conduz a aula</text>
+  <g fill="none" stroke="#d6a351" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)">
+    <path d="M262 238 L378 238"/>
+    <path d="M560 238 L676 238"/>
+    <path d="M858 238 L974 238"/>
+  </g>
+  <g font-family="'Trebuchet MS', 'Segoe UI', sans-serif" fill="#ffffff">
+    <g transform="translate(74 176)">
+      <rect width="188" height="124" rx="24" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="26" y="42" font-size="14" opacity="0.72">Etapa 01</text>
+      <text x="26" y="74" font-size="28" font-weight="700">Slide</text>
+      <text x="26" y="102" font-size="17" opacity="0.9">Base conceitual e leitura de cena.</text>
+    </g>
+    <g transform="translate(372 176)">
+      <rect width="188" height="124" rx="24" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="26" y="42" font-size="14" opacity="0.72">Etapa 02</text>
+      <text x="26" y="74" font-size="28" font-weight="700">Notebook</text>
+      <text x="26" y="102" font-size="17" opacity="0.9">Demonstração guiada e replicável.</text>
+    </g>
+    <g transform="translate(670 176)">
+      <rect width="188" height="124" rx="24" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="26" y="42" font-size="14" opacity="0.72">Etapa 03</text>
+      <text x="26" y="74" font-size="28" font-weight="700">Projeto</text>
+      <text x="26" y="102" font-size="17" opacity="0.9">Aplicação com dados e recorte real.</text>
+    </g>
+    <g transform="translate(968 176)">
+      <rect width="238" height="124" rx="24" fill="url(#card)" stroke="#ffffff" stroke-opacity="0.15"/>
+      <text x="26" y="42" font-size="14" opacity="0.72">Etapa 04</text>
+      <text x="26" y="74" font-size="28" font-weight="700">Discussão</text>
+      <text x="26" y="102" font-size="17" opacity="0.9">Interpretação técnica, limites e síntese.</text>
+    </g>
+  </g>
+</svg>

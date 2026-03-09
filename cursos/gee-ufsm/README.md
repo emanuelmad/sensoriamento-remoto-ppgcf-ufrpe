@@ -1,5 +1,7 @@
 # Curso GEE | UFSM
 
+![Trilha GEE](../../assets/img/gee-banner.svg)
+
 Material extraído do documento `Curso_GEE_PET.docx` e organizado em arquivos `.js` por unidade.
 
 ## Estrutura

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
+  <title id="title">Ecossistema do repositório</title>
+  <desc id="desc">Painel visual com aulas, notebooks, projetos, cursos e dados do repositório.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#12343b"/>
+      <stop offset="52%" stop-color="#245c4f"/>
+      <stop offset="100%" stop-color="#d8a75c"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.06"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#0f2326" flood-opacity="0.32"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity="0.12" fill="none">
+    <path d="M80 130 C230 80, 350 180, 500 130 S760 60, 910 130 S1110 210, 1210 120" stroke-width="2"/>
+    <path d="M80 560 C220 500, 360 620, 530 560 S820 430, 1000 520 S1140 590, 1220 520" stroke-width="2"/>
+    <circle cx="1040" cy="108" r="92"/>
+    <circle cx="1110" cy="182" r="146"/>
+  </g>
+  <g fill="#ffffff">
+    <text x="92" y="122" font-size="24" font-family="Georgia, 'Trebuchet MS', serif" opacity="0.84">Repositório de disciplina</text>
+    <text x="92" y="176" font-size="54" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="700">Ecossistema de ensino aplicado</text>
+    <text x="92" y="220" font-size="22" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" opacity="0.9">Teoria, prática, código, dados e trilhas complementares no mesmo fluxo.</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="92" y="276" width="320" height="156" rx="26" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18"/>
+    <rect x="438" y="276" width="320" height="156" rx="26" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18"/>
+    <rect x="784" y="276" width="404" height="156" rx="26" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18"/>
+    <rect x="92" y="466" width="404" height="156" rx="26" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18"/>
+    <rect x="522" y="466" width="320" height="156" rx="26" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18"/>
+    <rect x="868" y="466" width="320" height="156" rx="26" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18"/>
+  </g>
+  <g font-family="'Trebuchet MS', 'Segoe UI', sans-serif" fill="#ffffff">
+    <text x="120" y="322" font-size="16" opacity="0.75">Aulas</text>
+    <text x="120" y="366" font-size="34" font-weight="700">Slides + PDFs</text>
+    <text x="120" y="402" font-size="18" opacity="0.9">Exposição, revisão e suporte para sala.</text>
+
+    <text x="466" y="322" font-size="16" opacity="0.75">Notebooks</text>
+    <text x="466" y="366" font-size="34" font-weight="700">Demonstrações</text>
+    <text x="466" y="402" font-size="18" opacity="0.9">Exemplos executáveis com foco didático.</text>
+
+    <text x="812" y="322" font-size="16" opacity="0.75">Projetos</text>
+    <text x="812" y="366" font-size="34" font-weight="700">Estudos de caso</text>
+    <text x="812" y="402" font-size="18" opacity="0.9">Sentinel-2, Landsat e validação temática.</text>
+
+    <text x="120" y="512" font-size="16" opacity="0.75">Cursos complementares</text>
+    <text x="120" y="556" font-size="34" font-weight="700">Google Earth Engine</text>
+    <text x="120" y="592" font-size="18" opacity="0.9">Trilhas extras organizadas por unidade.</text>
+
+    <text x="550" y="512" font-size="16" opacity="0.75">Dados</text>
+    <text x="550" y="556" font-size="34" font-weight="700">Fontes e amostras</text>
+    <text x="550" y="592" font-size="18" opacity="0.9">Links, recortes leves e organização reprodutível.</text>
+
+    <text x="896" y="512" font-size="16" opacity="0.75">Automação</text>
+    <text x="896" y="556" font-size="34" font-weight="700">Validação contínua</text>
+    <text x="896" y="592" font-size="18" opacity="0.9">Workflow, templates e manutenção no GitHub.</text>
+  </g>
+</svg>

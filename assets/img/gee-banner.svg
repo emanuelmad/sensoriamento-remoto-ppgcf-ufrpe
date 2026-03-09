@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Trilha GEE UFSM</title>
+  <desc id="desc">Banner visual para a trilha de Google Earth Engine organizada por unidades.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#123a45"/>
+      <stop offset="55%" stop-color="#0f6b63"/>
+      <stop offset="100%" stop-color="#d9b15c"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d1d24" stop-opacity="0.36"/>
+      <stop offset="100%" stop-color="#0d1d24" stop-opacity="0.14"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.14">
+    <path d="M70 322 C180 264, 302 352, 454 298 S720 208, 862 270 S1080 358, 1210 286" stroke-width="2.2"/>
+    <path d="M94 88 C214 56, 332 150, 480 118 S750 70, 904 124 S1080 194, 1210 122" stroke-width="2"/>
+  </g>
+  <g fill="#ffffff" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">
+    <text x="86" y="110" font-size="18" opacity="0.8">Curso complementar</text>
+    <text x="86" y="164" font-size="56" font-weight="700">Google Earth Engine | UFSM</text>
+    <text x="86" y="212" font-size="22" opacity="0.9">Código por unidade, pronto para GitHub e para o Code Editor.</text>
+  </g>
+  <g transform="translate(738 72)">
+    <rect width="460" height="274" rx="24" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.18"/>
+    <rect x="28" y="28" width="404" height="34" rx="10" fill="#0c2025" fill-opacity="0.62"/>
+    <circle cx="52" cy="45" r="6" fill="#f06f5a"/>
+    <circle cx="72" cy="45" r="6" fill="#f2c04f"/>
+    <circle cx="92" cy="45" r="6" fill="#5dc28e"/>
+    <g font-family="'Courier New', monospace" font-size="16" fill="#dfe9e2">
+      <text x="46" y="104">var coleção = ee.ImageCollection(...)</text>
+      <text x="46" y="134">  .filterDate('2013-01-01', '2020-12-31')</text>
+      <text x="46" y="164">  .filterBounds(area_estudo);</text>
+      <text x="46" y="208">Map.addLayer(imagem, vis, 'Landsat');</text>
+      <text x="46" y="246">print('NDVI', imagem.normalizedDifference(...));</text>
+    </g>
+  </g>
+  <g transform="translate(84 270)" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">
+    <rect width="188" height="74" rx="18" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.16"/>
+    <rect x="208" width="188" height="74" rx="18" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.16"/>
+    <rect x="416" width="188" height="74" rx="18" fill="#ffffff" fill-opacity="0.12" stroke="#ffffff" stroke-opacity="0.16"/>
+    <text x="24" y="31" font-size="14" fill="#dbe8e0" opacity="0.8">Unidades</text>
+    <text x="24" y="56" font-size="28" font-weight="700" fill="#ffffff">18 scripts</text>
+    <text x="232" y="31" font-size="14" fill="#dbe8e0" opacity="0.8">Formato</text>
+    <text x="232" y="56" font-size="28" font-weight="700" fill="#ffffff">.js por capítulo</text>
+    <text x="440" y="31" font-size="14" fill="#dbe8e0" opacity="0.8">Uso</text>
+    <text x="440" y="56" font-size="28" font-weight="700" fill="#ffffff">Earth Engine</text>
+  </g>
+</svg>

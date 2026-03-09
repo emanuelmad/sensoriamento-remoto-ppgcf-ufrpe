@@ -12,6 +12,8 @@ Repositório da disciplina de Sensoriamento Remoto do Programa de Pós-Graduaç�
 
 Esta base foi organizada para funcionar como um repositório de curso moderno: teoria, prática, códigos, projetos, automação e documentação no mesmo lugar.
 
+![Visão geral do repositório](./assets/img/overview-grid.svg)
+
 ## O que este repositório entrega
 
 - trilha didática organizada por módulos
@@ -61,6 +63,8 @@ Aulas_SR/
 | 04 | Imagem digital | Pixel, bandas, composições e interpretação | Notebook 03 |
 | 05 | Análise aplicada | Índices, classificação e validação | Projetos 02 e 03 |
 
+![Jornada dos módulos](./assets/img/module-journey.svg)
+
 ## Comece por aqui
 
 - Materiais de aula: [aulas/README.md](./aulas/README.md)
@@ -99,6 +103,8 @@ conda activate sensoriamento-remoto
 ```
 
 ## Fluxo recomendado para a disciplina
+
+![Fluxo didático](./assets/img/teaching-flow.svg)
 
 1. Apresente o conceito no slide.
 2. Leve a turma para um notebook curto.

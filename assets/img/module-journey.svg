@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Jornada dos módulos</title>
+  <desc id="desc">Linha do tempo com os cinco módulos da disciplina.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5efe2"/>
+      <stop offset="100%" stop-color="#efe4cf"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1f5c59"/>
+      <stop offset="50%" stop-color="#2b8c74"/>
+      <stop offset="100%" stop-color="#d39a39"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#c8b99f" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+  <rect width="1280" height="360" rx="26" fill="url(#bg)"/>
+  <text x="72" y="84" font-size="20" font-family="Georgia, 'Trebuchet MS', serif" fill="#5a6757">Jornada da disciplina</text>
+  <text x="72" y="126" font-size="38" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-weight="700" fill="#17363f">Da base conceitual à análise aplicada</text>
+  <path d="M110 220 C240 195, 350 250, 490 218 S740 168, 875 214 S1060 258, 1180 214" stroke="url(#line)" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <g filter="url(#soft)" font-family="'Trebuchet MS', 'Segoe UI', sans-serif">
+    <g transform="translate(150 210)">
+      <circle r="28" fill="#1c5d57"/>
+      <text y="9" font-size="22" font-weight="700" text-anchor="middle" fill="#ffffff">1</text>
+      <text x="-58" y="62" font-size="14" fill="#5b645d">Introdução</text>
+      <text x="-58" y="86" font-size="22" font-weight="700" fill="#163238">Histórico e conceitos</text>
+    </g>
+    <g transform="translate(390 232)">
+      <circle r="28" fill="#2b7f67"/>
+      <text y="9" font-size="22" font-weight="700" text-anchor="middle" fill="#ffffff">2</text>
+      <text x="-58" y="62" font-size="14" fill="#5b645d">Fundamentos</text>
+      <text x="-58" y="86" font-size="22" font-weight="700" fill="#163238">Radiação e resposta</text>
+    </g>
+    <g transform="translate(635 202)">
+      <circle r="28" fill="#329275"/>
+      <text y="9" font-size="22" font-weight="700" text-anchor="middle" fill="#ffffff">3</text>
+      <text x="-58" y="62" font-size="14" fill="#5b645d">Sensores</text>
+      <text x="-58" y="86" font-size="22" font-weight="700" fill="#163238">Plataformas e resolução</text>
+    </g>
+    <g transform="translate(885 225)">
+      <circle r="28" fill="#7d8d4b"/>
+      <text y="9" font-size="22" font-weight="700" text-anchor="middle" fill="#ffffff">4</text>
+      <text x="-58" y="62" font-size="14" fill="#5b645d">Imagem digital</text>
+      <text x="-58" y="86" font-size="22" font-weight="700" fill="#163238">Bandas e interpretação</text>
+    </g>
+    <g transform="translate(1120 210)">
+      <circle r="28" fill="#c3872a"/>
+      <text y="9" font-size="22" font-weight="700" text-anchor="middle" fill="#ffffff">5</text>
+      <text x="-58" y="62" font-size="14" fill="#5b645d">Aplicação</text>
+      <text x="-58" y="86" font-size="22" font-weight="700" fill="#163238">Índices e validação</text>
+    </g>
+  </g>
+</svg>
