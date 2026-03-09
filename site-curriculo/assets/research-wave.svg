@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Ondas de pesquisa</title>
+  <desc id="desc">Ilustracao abstrata de ondas e linhas de analise espacial.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5e8cf"/>
+      <stop offset="100%" stop-color="#d9a250"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="34" fill="#102730"/>
+  <circle cx="180" cy="56" r="52" fill="url(#bg)" fill-opacity="0.26"/>
+  <g fill="none" stroke="#f5e8cf" stroke-linecap="round">
+    <path d="M24 144 C52 128, 78 158, 108 142 S164 112, 214 138" stroke-width="4"/>
+    <path d="M24 170 C58 146, 90 182, 122 162 S180 136, 214 154" stroke-width="3"/>
+    <path d="M24 198 C68 170, 106 210, 142 188 S190 170, 214 180" stroke-width="2.5" opacity="0.86"/>
+  </g>
+  <rect x="26" y="34" width="88" height="48" rx="16" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.16"/>
+  <text x="42" y="64" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#ffffff">LULC</text>
+</svg>

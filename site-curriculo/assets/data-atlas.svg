@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Atlas de dados</title>
+  <desc id="desc">Ilustracao abstrata de mapa, barras e painel analitico.</desc>
+  <defs>
+    <linearGradient id="bars" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6be0c7"/>
+      <stop offset="100%" stop-color="#1f8b7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="34" fill="#102730"/>
+  <rect x="24" y="28" width="192" height="34" rx="12" fill="#ffffff" fill-opacity="0.07" stroke="#ffffff" stroke-opacity="0.14"/>
+  <circle cx="48" cy="45" r="5" fill="#f06f5a"/>
+  <circle cx="64" cy="45" r="5" fill="#f2c04f"/>
+  <circle cx="80" cy="45" r="5" fill="#63cf9a"/>
+  <g transform="translate(34 86)">
+    <rect width="82" height="92" rx="20" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.14"/>
+    <path d="M16 64 C28 42, 42 60, 58 46 S80 32, 96 42" stroke="#f3e1bb" stroke-width="2.5" fill="none"/>
+    <circle cx="42" cy="46" r="6" fill="#f3e1bb"/>
+  </g>
+  <g transform="translate(134 86)">
+    <rect width="72" height="92" rx="20" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.14"/>
+    <g transform="translate(14 20)">
+      <rect x="0" y="38" width="10" height="20" rx="4" fill="url(#bars)"/>
+      <rect x="16" y="18" width="10" height="40" rx="4" fill="url(#bars)"/>
+      <rect x="32" y="8" width="10" height="50" rx="4" fill="url(#bars)"/>
+      <rect x="48" y="26" width="10" height="32" rx="4" fill="url(#bars)"/>
+    </g>
+  </g>
+</svg>

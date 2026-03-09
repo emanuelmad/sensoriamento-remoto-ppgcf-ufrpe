@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="760" viewBox="0 0 760 760" role="img" aria-labelledby="title desc">
+  <title id="title">Orbita academica</title>
+  <desc id="desc">Ilustracao abstrata com curvas, sensores e camadas territoriais.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#123d45"/>
+      <stop offset="55%" stop-color="#0e7065"/>
+      <stop offset="100%" stop-color="#ddb25f"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f7efdf"/>
+      <stop offset="100%" stop-color="#ebb867"/>
+    </linearGradient>
+  </defs>
+  <rect width="760" height="760" rx="58" fill="url(#bg)"/>
+  <circle cx="574" cy="176" r="118" fill="#ffffff" fill-opacity="0.08"/>
+  <circle cx="602" cy="212" r="168" fill="#ffffff" fill-opacity="0.05"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.18">
+    <path d="M92 570 C188 492, 294 610, 438 548 S658 430, 688 508" stroke-width="2.4"/>
+    <path d="M92 612 C200 560, 328 680, 466 622 S628 558, 688 596" stroke-width="2"/>
+    <path d="M106 166 C208 134, 294 242, 412 206 S620 124, 686 196" stroke-width="2"/>
+  </g>
+  <g transform="translate(122 124)">
+    <circle cx="258" cy="246" r="168" stroke="url(#ring)" stroke-width="2.6" fill="none"/>
+    <circle cx="258" cy="246" r="124" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.8" fill="none"/>
+    <circle cx="258" cy="246" r="74" fill="#0b2530" fill-opacity="0.38" stroke="#ffffff" stroke-opacity="0.16"/>
+    <circle cx="258" cy="246" r="14" fill="#f7efdf"/>
+    <ellipse cx="258" cy="246" rx="244" ry="108" transform="rotate(-22 258 246)" stroke="#f7efdf" stroke-opacity="0.48" stroke-width="2" fill="none"/>
+    <ellipse cx="258" cy="246" rx="222" ry="78" transform="rotate(18 258 246)" stroke="#ffffff" stroke-opacity="0.22" stroke-width="1.6" fill="none"/>
+    <circle cx="52" cy="196" r="18" fill="#dcb062"/>
+    <circle cx="470" cy="314" r="14" fill="#ffffff" fill-opacity="0.88"/>
+    <circle cx="348" cy="96" r="10" fill="#9ce0cf"/>
+    <circle cx="172" cy="392" r="12" fill="#9ce0cf"/>
+  </g>
+  <g transform="translate(96 512)">
+    <rect width="248" height="110" rx="24" fill="#0b2028" fill-opacity="0.34" stroke="#ffffff" stroke-opacity="0.14"/>
+    <text x="26" y="38" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="15" fill="#dce5de" opacity="0.76">Pesquisa + ensino + produto digital</text>
+    <text x="26" y="74" font-family="'Trebuchet MS', 'Segoe UI', sans-serif" font-size="32" font-weight="700" fill="#ffffff">Observacao da Terra</text>
+  </g>
+</svg>
