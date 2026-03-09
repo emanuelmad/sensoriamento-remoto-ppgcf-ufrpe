@@ -19,6 +19,7 @@ Esta base foi organizada para funcionar como um repositório de curso moderno: t
 - notebooks introdutórios para demonstrações em sala
 - scripts reutilizáveis para rotinas de sensoriamento remoto
 - estudos de caso prontos para adaptação por semestre
+- trilhas complementares, como o curso de Google Earth Engine organizado por unidade
 - templates de colaboração e workflow de validação para manter o repositório consistente
 
 ## Para quem este material foi desenhado
@@ -40,6 +41,7 @@ Aulas_SR/
 |   `-- pt-br/
 |       |-- pdf/
 |       `-- slides/
+|-- cursos/
 |-- dados/
 |-- docs/
 |-- materiais/
@@ -68,6 +70,7 @@ Aulas_SR/
 - Roteiro de projetos: [docs/roteiro-projetos.md](./docs/roteiro-projetos.md)
 - Notebooks iniciais: [notebooks/README.md](./notebooks/README.md)
 - Estudos de caso: [projetos/README.md](./projetos/README.md)
+- Cursos complementares: [cursos/README.md](./cursos/README.md)
 - Fontes de dados: [dados/README.md](./dados/README.md)
 
 ## Estudos de caso incluídos

@@ -19,8 +19,19 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
       - name: Compile Python modules
         run: python -m compileall scripts projetos
+
+      - name: Validate JavaScript syntax
+        run: |
+          for file in cursos/gee-pet-ufsm/codigos/*.js; do
+            node --check "$file"
+          done
 
       - name: Validate notebooks as JSON
         run: |

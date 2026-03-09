@@ -12,6 +12,7 @@ Este repositório foi estruturado para facilitar a evolução da disciplina por 
 ## Onde cada coisa deve entrar
 
 - novas aulas: `aulas/`
+- cursos e trilhas paralelas: `cursos/`
 - notebooks demonstrativos: `notebooks/`
 - projetos e estudos de caso: `projetos/`
 - rotinas reutilizáveis: `scripts/`
