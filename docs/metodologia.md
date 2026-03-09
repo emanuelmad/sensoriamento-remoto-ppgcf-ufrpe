@@ -1,30 +1,30 @@
 # Metodologia
 
-## Estrategia de aula
+## Estratégia de aula
 
 Cada encontro pode ser organizado em quatro blocos:
 
-1. contextualizacao conceitual curta
-2. exposicao visual com slide e interpretacao guiada
-3. demonstracao pratica em notebook ou script
-4. discussao aplicada com problema real
+1. contextualização conceitual curta
+2. exposição visual com slide e interpretação guiada
+3. demonstração prática em notebook ou script
+4. discussão aplicada com problema real
 
 ## Abordagem recomendada
 
 - reduzir aulas exclusivamente expositivas
 - conectar cada tema a um exemplo computacional
 - usar projetos pequenos para consolidar conceitos
-- trabalhar leitura de imagem junto com interpretacao ambiental
+- trabalhar leitura de imagem junto com interpretação ambiental
 
-## Rotina didatica sugerida
+## Rotina didática sugerida
 
 - antes da aula: leitura curta ou PDF
-- durante a aula: exposicao e notebook demonstrativo
-- apos a aula: exercicio, mini relatorio ou atividade de projeto
+- durante a aula: exposição e notebook demonstrativo
+- após a aula: exercício, mini relatório ou atividade de projeto
 
-## Avaliacao compativel com o repositorio
+## Avaliação compatível com o repositório
 
-- exercicios curtos baseados nos notebooks
-- interpretacao de cenas e produtos
+- exercícios curtos baseados nos notebooks
+- interpretação de cenas e produtos
 - projeto aplicado com dados reais
-- apresentacao final com justificativa metodologica
+- apresentação final com justificativa metodológica

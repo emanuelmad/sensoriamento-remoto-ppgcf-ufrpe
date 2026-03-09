@@ -1,5 +1,5 @@
 name: Nova aula ou notebook
-description: Solicite a criacao ou atualizacao de uma aula, notebook ou demonstracao.
+description: Solicite a criação ou atualização de uma aula, notebook ou demonstração.
 title: "[Aula] "
 labels:
   - ensino
@@ -10,13 +10,13 @@ body:
     attributes:
       label: Tema
       description: Tema principal da aula ou notebook.
-      placeholder: Ex. composicoes coloridas e indices espectrais
+      placeholder: Ex. composições coloridas e índices espectrais
     validations:
       required: true
   - type: textarea
     id: objetivo
     attributes:
-      label: Objetivo didatico
+      label: Objetivo didático
       description: O que os alunos devem aprender ao final.
     validations:
       required: true
@@ -24,11 +24,11 @@ body:
     id: material
     attributes:
       label: Material esperado
-      description: Descreva se a entrega sera slide, PDF, notebook, script ou combinacao.
+      description: Descreva se a entrega será slide, PDF, notebook, script ou combinação.
     validations:
       required: true
   - type: textarea
     id: observacoes
     attributes:
-      label: Observacoes
-      description: Dependencias, dados ou observacoes extras.
+      label: Observações
+      description: Dependências, dados ou observações extras.

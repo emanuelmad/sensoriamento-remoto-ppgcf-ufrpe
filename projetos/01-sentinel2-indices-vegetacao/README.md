@@ -1,10 +1,10 @@
-# Projeto 01 | Sentinel-2 e indices de vegetacao
+# Projeto 01 | Sentinel-2 e índices de vegetação
 
 ## Objetivo
 
-Calcular produtos basicos de interpretacao e analise com uma cena Sentinel-2 Level-2A:
+Calcular produtos básicos de interpretação e análise com uma cena Sentinel-2 Level-2A:
 
-- composicao RGB
+- composição RGB
 - NDVI
 - NDWI
 
@@ -15,9 +15,9 @@ Baixe uma cena Sentinel-2 e separe pelo menos as bandas:
 - `B02` azul
 - `B03` verde
 - `B04` vermelho
-- `B08` infravermelho proximo
+- `B08` infravermelho próximo
 
-## Execucao
+## Execução
 
 ```bash
 python main.py ^
@@ -27,7 +27,7 @@ python main.py ^
   --nir dados/B08.tif
 ```
 
-## Saidas
+## Saídas
 
 - `resultados/rgb.png`
 - `resultados/ndvi.png`
@@ -35,8 +35,8 @@ python main.py ^
 - `resultados/ndvi.tif`
 - `resultados/ndwi.tif`
 
-## Discussao em sala
+## Discussão em sala
 
-- Onde a vegetacao aparece com maior vigor?
-- Onde a agua e separada com clareza?
-- Quais limitacoes surgem sem mascaramento de nuvem?
+- Onde a vegetação aparece com maior vigor?
+- Onde a água é separada com clareza?
+- Quais limitações surgem sem mascaramento de nuvem?

@@ -1,31 +1,31 @@
 # Cronograma sugerido
 
-## Estrutura em modulos
+## Estrutura em módulos
 
-| Semana | Modulo | Foco | Entrega sugerida |
+| Semana | Módulo | Foco | Entrega sugerida |
 | --- | --- | --- | --- |
-| 1 | Introducao e historico | Conceitos basicos, evolucao do sensoriamento remoto e aplicacoes | Fichamento curto |
-| 2 | Fundamentos fisicos I | Radiacao eletromagnetica, energia e espectro | Lista de conceitos |
-| 3 | Fundamentos fisicos II | Interacao da radiacao com atmosfera, agua, solo e vegetacao | Exercicio interpretativo |
-| 4 | Fotografia aerea | Escala, geometria, fotointerpretacao e fotogrametria | Analise visual de imagem |
-| 5 | Sensores e plataformas | Sensores orbitais, resolucoes e comparacoes entre sistemas | Quadro comparativo |
-| 6 | Imagem digital | Pixel, bandas, histogramas e composicoes coloridas | Notebook 01 |
-| 7 | Indices espectrais | NDVI, NDWI e metricas derivadas | Notebook 02 |
-| 8 | Classificacao e analise | Classificacao supervisionada e avaliacao inicial | Notebook 03 |
-| 9 | Projeto aplicado | Delimitacao do estudo e definicao de base de dados | Proposta de projeto |
-| 10 | Projeto aplicado | Processamento, interpretacao e discussao | Relatorio parcial |
-| 11 | Projeto aplicado | Consolidacao dos resultados | Apresentacao final |
+| 1 | Introdução e histórico | Conceitos básicos, evolução do sensoriamento remoto e aplicações | Fichamento curto |
+| 2 | Fundamentos físicos I | Radiação eletromagnética, energia e espectro | Lista de conceitos |
+| 3 | Fundamentos físicos II | Interação da radiação com atmosfera, água, solo e vegetação | Exercício interpretativo |
+| 4 | Fotografia aérea | Escala, geometria, fotointerpretação e fotogrametria | Análise visual de imagem |
+| 5 | Sensores e plataformas | Sensores orbitais, resoluções e comparações entre sistemas | Quadro comparativo |
+| 6 | Imagem digital | Pixel, bandas, histogramas e composições coloridas | Notebook 01 |
+| 7 | Índices espectrais | NDVI, NDWI e métricas derivadas | Notebook 02 |
+| 8 | Classificação e análise | Classificação supervisionada e avaliação inicial | Notebook 03 |
+| 9 | Projeto aplicado | Delimitação do estudo e definição de base de dados | Proposta de projeto |
+| 10 | Projeto aplicado | Processamento, interpretação e discussão | Relatório parcial |
+| 11 | Projeto aplicado | Consolidação dos resultados | Apresentação final |
 
-## Estrategia didatica
+## Estratégia didática
 
-- Aula conceitual curta
-- Demonstracao com notebook
-- Atividade pratica guiada
-- Discussao de aplicacao florestal, ambiental ou territorial
+- aula conceitual curta
+- demonstração com notebook
+- atividade prática guiada
+- discussão de aplicação florestal, ambiental ou territorial
 
-## Roteiro minimo de avaliacao
+## Roteiro mínimo de avaliação
 
-- Participacao nas discussoes
-- Qualidade tecnica dos notebooks
-- Interpretacao dos resultados
-- Clareza no projeto final
+- participação nas discussões
+- qualidade técnica dos notebooks
+- interpretação dos resultados
+- clareza no projeto final

@@ -1,32 +1,32 @@
 # Contribuindo
 
-Este repositorio foi estruturado para facilitar a evolucao da disciplina por semestre, por modulo e por projeto aplicado.
+Este repositório foi estruturado para facilitar a evolução da disciplina por semestre, por módulo e por projeto aplicado.
 
-## Principios
+## Princípios
 
-- manter teoria, pratica e projeto conectados
+- manter teoria, prática e projeto conectados
 - evitar arquivos soltos na raiz
-- reutilizar funcoes em `scripts/` sempre que possivel
-- privilegiar exemplos pequenos, claros e reproduziveis
+- reutilizar funções em `scripts/` sempre que possível
+- privilegiar exemplos pequenos, claros e reproduzíveis
 
 ## Onde cada coisa deve entrar
 
 - novas aulas: `aulas/`
 - notebooks demonstrativos: `notebooks/`
 - projetos e estudos de caso: `projetos/`
-- rotinas reutilizaveis: `scripts/`
+- rotinas reutilizáveis: `scripts/`
 - documentos de apoio: `docs/`
 
-## Boas praticas
+## Boas práticas
 
 - use nomes consistentes para novos arquivos
-- documente entradas, saidas e objetivo de cada projeto
+- documente entradas, saídas e objetivo de cada projeto
 - mantenha dados grandes fora do Git e documente o download em `dados/`
-- valide notebooks e scripts antes de subir alteracoes
+- valide notebooks e scripts antes de subir alterações
 
 ## Fluxo sugerido
 
 1. abra uma issue para descrever a melhoria
-2. implemente a mudanca mantendo a estrutura do repositorio
-3. execute validacoes locais
-4. abra um pull request com contexto suficiente para revisao
+2. implemente a mudança mantendo a estrutura do repositório
+3. execute validações locais
+4. abra um pull request com contexto suficiente para revisão

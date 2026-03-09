@@ -2,30 +2,30 @@
 
 ![Validate](https://github.com/emanuelmad/sensoriamento-remoto-ppgcf-ufrpe/actions/workflows/validate.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.12-3776AB?logo=python&logoColor=white)
-![Repositorio](https://img.shields.io/badge/status-publicado-1f6f5b)
+![Repositório](https://img.shields.io/badge/status-publicado-1f6f5b)
 
 ![Banner do curso](./assets/img/banner.svg)
 
-Repositorio da disciplina de Sensoriamento Remoto do Programa de Pos-Graduacao em Ciencias Florestais da UFRPE.
+Repositório da disciplina de Sensoriamento Remoto do Programa de Pós-Graduação em Ciências Florestais da UFRPE.
 
-**Docente responsavel:** Prof. Dr. Emanuel Araujo Silva
+**Docente responsável:** Prof. Dr. Emanuel Araújo Silva
 
-Esta base foi organizada para funcionar como um repositorio de curso moderno: teoria, pratica, codigos, projetos, automacao e documentacao no mesmo lugar.
+Esta base foi organizada para funcionar como um repositório de curso moderno: teoria, prática, códigos, projetos, automação e documentação no mesmo lugar.
 
-## O que este repositorio entrega
+## O que este repositório entrega
 
-- trilha didatica organizada por modulos
+- trilha didática organizada por módulos
 - slides e PDFs para aula
-- notebooks introdutorios para demonstracoes em sala
-- scripts reutilizaveis para rotinas de sensoriamento remoto
-- estudos de caso prontos para adaptacao por semestre
-- templates de colaboracao e workflow de validacao para manter o repositorio consistente
+- notebooks introdutórios para demonstrações em sala
+- scripts reutilizáveis para rotinas de sensoriamento remoto
+- estudos de caso prontos para adaptação por semestre
+- templates de colaboração e workflow de validação para manter o repositório consistente
 
 ## Para quem este material foi desenhado
 
-- estudantes de pos-graduacao com foco em geotecnologias, ciencias florestais e analise ambiental
-- turmas que precisam combinar base conceitual com aplicacao computacional
-- disciplinas que desejam sair de uma pasta de arquivos soltos e virar um repositorio vivo
+- estudantes de pós-graduação com foco em geotecnologias, ciências florestais e análise ambiental
+- turmas que precisam combinar base conceitual com aplicação computacional
+- disciplinas que desejam sair de uma pasta de arquivos soltos e virar um repositório vivo
 
 ## Estrutura do curso
 
@@ -49,15 +49,15 @@ Aulas_SR/
 `-- scripts/
 ```
 
-## Modulos
+## Módulos
 
-| Modulo | Foco | Base teorica | Ponte pratica |
+| Módulo | Foco | Base teórica | Ponte prática |
 | --- | --- | --- | --- |
-| 01 | Introducao e historico | Conceitos, evolucao e aplicacoes | Notebook 01 |
-| 02 | Fundamentos fisicos | Radiacao, interacoes e resposta espectral | Notebook 02 |
-| 03 | Sensores e plataformas | Fotografia aerea, sensores orbitais e resolucoes | Projeto 01 |
-| 04 | Imagem digital | Pixel, bandas, composicoes e interpretacao | Notebook 03 |
-| 05 | Analise aplicada | Indices, classificacao e validacao | Projetos 02 e 03 |
+| 01 | Introdução e histórico | Conceitos, evolução e aplicações | Notebook 01 |
+| 02 | Fundamentos físicos | Radiação, interações e resposta espectral | Notebook 02 |
+| 03 | Sensores e plataformas | Fotografia aérea, sensores orbitais e resoluções | Projeto 01 |
+| 04 | Imagem digital | Pixel, bandas, composições e interpretação | Notebook 03 |
+| 05 | Análise aplicada | Índices, classificação e validação | Projetos 02 e 03 |
 
 ## Comece por aqui
 
@@ -70,17 +70,17 @@ Aulas_SR/
 - Estudos de caso: [projetos/README.md](./projetos/README.md)
 - Fontes de dados: [dados/README.md](./dados/README.md)
 
-## Estudos de caso incluidos
+## Estudos de caso incluídos
 
-| Projeto | Tema | Entrada esperada | Saidas |
+| Projeto | Tema | Entrada esperada | Saídas |
 | --- | --- | --- | --- |
 | [01-sentinel2-indices-vegetacao](./projetos/01-sentinel2-indices-vegetacao/README.md) | NDVI e NDWI com Sentinel-2 | Bandas B02, B03, B04 e B08 | RGB, NDVI, NDWI e GeoTIFFs |
 | [02-landsat-serie-temporal-vegetacao](./projetos/02-landsat-serie-temporal-vegetacao/README.md) | Delta NDVI em duas datas | Bandas vermelha e NIR de t1 e t2 | NDVI t1, NDVI t2 e delta NDVI |
-| [03-mapbiomas-validacao-classificacao](./projetos/03-mapbiomas-validacao-classificacao/README.md) | Avaliacao de classificacao tematica | Raster de referencia e raster predito | Relatorio textual e matriz de confusao |
+| [03-mapbiomas-validacao-classificacao](./projetos/03-mapbiomas-validacao-classificacao/README.md) | Avaliação de classificação temática | Raster de referência e raster predito | Relatório textual e matriz de confusão |
 
-## Ambiente de execucao
+## Ambiente de execução
 
-Instalacao com `pip`:
+Instalação com `pip`:
 
 ```bash
 python -m venv .venv
@@ -88,7 +88,7 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
-Instalacao com `conda`:
+Instalação com `conda`:
 
 ```bash
 conda env create -f environment.yml
@@ -100,22 +100,22 @@ conda activate sensoriamento-remoto
 1. Apresente o conceito no slide.
 2. Leve a turma para um notebook curto.
 3. Mostre um projeto aplicado com dados reais.
-4. Feche com interpretacao tecnica e implicacoes ambientais ou florestais.
+4. Feche com interpretação técnica e implicações ambientais ou florestais.
 
-## Manutencao do repositorio
+## Manutenção do repositório
 
-- `CONTRIBUTING.md` define o padrao para novas contribuicoes
+- `CONTRIBUTING.md` define o padrão para novas contribuições
 - `.github/workflows/validate.yml` verifica notebooks e scripts a cada `push`
 - `.github/ISSUE_TEMPLATE/` organiza novas aulas, melhorias e estudos de caso
-- `CODEOWNERS` centraliza a revisao no perfil responsavel
+- `CODEOWNERS` centraliza a revisão no perfil responsável
 
-## Evolucao por semestre
+## Evolução por semestre
 
-- crie uma branch ou tag por periodo letivo
+- crie uma branch ou tag por período letivo
 - adicione novos notebooks em `notebooks/`
-- converta trechos repetidos em funcoes dentro de `scripts/`
+- converta trechos repetidos em funções dentro de `scripts/`
 - publique novos estudos de caso dentro de `projetos/`
 
-## Publicacao
+## Publicação
 
-Repositorio remoto: `https://github.com/emanuelmad/sensoriamento-remoto-ppgcf-ufrpe`
+Repositório remoto: `https://github.com/emanuelmad/sensoriamento-remoto-ppgcf-ufrpe`

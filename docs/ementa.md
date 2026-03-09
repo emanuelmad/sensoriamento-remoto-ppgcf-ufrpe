@@ -1,32 +1,32 @@
 # Ementa
 
-## Descricao
+## Descrição
 
-Introducao aos fundamentos do sensoriamento remoto com enfase em principios fisicos, sensores, plataformas, resolucoes, interpretacao de imagens, indices espectrais e aplicacoes ambientais e florestais.
+Introdução aos fundamentos do sensoriamento remoto com ênfase em princípios físicos, sensores, plataformas, resoluções, interpretação de imagens, índices espectrais e aplicações ambientais e florestais.
 
 ## Objetivos
 
-- compreender a base fisica da aquisicao remota de informacao
-- distinguir sensores, plataformas e resolucoes
+- compreender a base física da aquisição remota de informação
+- distinguir sensores, plataformas e resoluções
 - interpretar imagens e produtos derivados
-- aplicar indices e classificadores em problemas reais
-- integrar teoria, leitura tecnica e pratica computacional
+- aplicar índices e classificadores em problemas reais
+- integrar teoria, leitura técnica e prática computacional
 
-## Competencias esperadas
+## Competências esperadas
 
-- leitura critica de produtos de sensoriamento remoto
-- selecao adequada de sensores para diferentes perguntas
-- execucao de fluxos simples de preprocessamento e analise
-- interpretacao tecnica de mapas, indices e classificacoes
+- leitura crítica de produtos de sensoriamento remoto
+- seleção adequada de sensores para diferentes perguntas
+- execução de fluxos simples de pré-processamento e análise
+- interpretação técnica de mapas, índices e classificações
 
-## Conteudos centrais
+## Conteúdos centrais
 
-1. Historico e conceitos fundamentais
-2. Radiacao eletromagnetica e resposta espectral
-3. Atmosfera, agua, solo e vegetacao
-4. Sensores aereos e orbitais
-5. Resolucao espacial, espectral, radiometrica e temporal
-6. Imagem digital, bandas e composicoes
-7. Indices espectrais
-8. Classificacao e avaliacao de resultados
+1. Histórico e conceitos fundamentais
+2. Radiação eletromagnética e resposta espectral
+3. Atmosfera, água, solo e vegetação
+4. Sensores aéreos e orbitais
+5. Resolução espacial, espectral, radiométrica e temporal
+6. Imagem digital, bandas e composições
+7. Índices espectrais
+8. Classificação e avaliação de resultados
 9. Estudos de caso em contexto ambiental e florestal

@@ -2,18 +2,18 @@
 
 Descreva de forma objetiva o que foi adicionado, removido ou ajustado.
 
-## Tipo de alteracao
+## Tipo de alteração
 
 - [ ] nova aula
 - [ ] novo notebook
 - [ ] novo projeto aplicado
 - [ ] melhoria em script existente
-- [ ] ajuste de documentacao
+- [ ] ajuste de documentação
 
 ## Como validar
 
-Liste os passos para revisar esta alteracao.
+Liste os passos para revisar esta alteração.
 
-## Observacoes
+## Observações
 
-Inclua contexto didatico, dependencias ou riscos relevantes.
+Inclua contexto didático, dependências ou riscos relevantes.

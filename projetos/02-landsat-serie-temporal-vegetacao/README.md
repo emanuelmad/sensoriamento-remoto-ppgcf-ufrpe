@@ -1,8 +1,8 @@
-# Projeto 02 | Serie temporal de vegetacao com Landsat
+# Projeto 02 | Série temporal de vegetação com Landsat
 
 ## Objetivo
 
-Comparar duas datas Landsat por meio de NDVI e gerar um mapa simples de variacao temporal.
+Comparar duas datas Landsat por meio de NDVI e gerar um mapa simples de variação temporal.
 
 ## Dados esperados
 
@@ -11,7 +11,7 @@ Para cada data, use pelo menos:
 - banda vermelha
 - banda NIR
 
-## Execucao
+## Execução
 
 ```bash
 python main.py ^
@@ -21,7 +21,7 @@ python main.py ^
   --nir-t2 dados/nir_t2.tif
 ```
 
-## Saidas
+## Saídas
 
 - `resultados/ndvi_t1.png`
 - `resultados/ndvi_t2.png`
@@ -30,8 +30,8 @@ python main.py ^
 - `resultados/ndvi_t2.tif`
 - `resultados/delta_ndvi.tif`
 
-## Discussao em sala
+## Discussão em sala
 
 - O NDVI aumentou ou diminuiu entre as datas?
-- O padrao espacial sugere degradacao, recuperacao ou sazonalidade?
-- Que cuidados de comparabilidade entre cenas sao necessarios?
+- O padrão espacial sugere degradação, recuperação ou sazonalidade?
+- Que cuidados de comparabilidade entre cenas são necessários?

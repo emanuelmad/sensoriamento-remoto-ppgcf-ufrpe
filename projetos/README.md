@@ -2,7 +2,7 @@
 
 Esta pasta concentra estudos de caso e projetos aplicados da disciplina.
 
-## Estudos de caso disponiveis
+## Estudos de caso disponíveis
 
 - [01-sentinel2-indices-vegetacao](./01-sentinel2-indices-vegetacao/README.md)
 - [02-landsat-serie-temporal-vegetacao](./02-landsat-serie-temporal-vegetacao/README.md)
@@ -13,5 +13,5 @@ Esta pasta concentra estudos de caso e projetos aplicados da disciplina.
 
 - apresente o problema em sala
 - rode o script principal com dados reais
-- discuta limites, incertezas e interpretacao
+- discuta limites, incertezas e interpretação
 - converta o fluxo em atividade para os alunos

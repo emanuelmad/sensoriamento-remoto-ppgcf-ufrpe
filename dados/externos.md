@@ -3,17 +3,17 @@
 ## Sentinel-2
 
 - Portal: https://dataspace.copernicus.eu/
-- Uso sugerido: composicoes coloridas, NDVI, monitoramento de vegetacao e agua
+- Uso sugerido: composições coloridas, NDVI, monitoramento de vegetação e água
 
 ## Landsat
 
 - Portal: https://earthexplorer.usgs.gov/
-- Uso sugerido: series temporais e comparacao historica
+- Uso sugerido: séries temporais e comparação histórica
 
 ## MapBiomas
 
 - Portal: https://brasil.mapbiomas.org/
-- Uso sugerido: referencia tematica e validacao preliminar
+- Uso sugerido: referência temática e validação preliminar
 
 ## INPE
 

@@ -2,20 +2,20 @@
 
 Esta pasta concentra os materiais principais da disciplina.
 
-## Organizacao
+## Organização
 
-- `pt-br/slides/`: apresentacoes em portugues
-- `pt-br/pdf/`: PDFs para distribuicao e revisao
-- `en/slides/`: apresentacoes em ingles
+- `pt-br/slides/`: apresentações em português
+- `pt-br/pdf/`: PDFs para distribuição e revisão
+- `en/slides/`: apresentações em inglês
 
-## Sugestao de fluxo
+## Sugestão de fluxo
 
-1. Use os slides como base da exposicao em sala.
+1. Use os slides como base da exposição em sala.
 2. Compartilhe os PDFs para estudo antes ou depois da aula.
-3. Conecte cada bloco teorico a um notebook em `notebooks/`.
+3. Conecte cada bloco teórico a um notebook em `notebooks/`.
 
-## Padrao recomendado para novos semestres
+## Padrão recomendado para novos semestres
 
 - manter materiais por idioma
-- evitar arquivos soltos na raiz do repositorio
+- evitar arquivos soltos na raiz do repositório
 - usar nomes consistentes para novas aulas

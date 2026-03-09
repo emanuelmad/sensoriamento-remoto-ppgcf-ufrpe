@@ -1,17 +1,17 @@
-# Projeto 03 | Validacao de classificacao com referencia MapBiomas
+# Projeto 03 | Validação de classificação com referência MapBiomas
 
 ## Objetivo
 
-Comparar um raster classificado pelo aluno com um raster de referencia tematica e gerar metricas basicas de desempenho.
+Comparar um raster classificado pelo aluno com um raster de referência temática e gerar métricas básicas de desempenho.
 
 ## Entradas esperadas
 
-- `reference.tif`: mapa de referencia
+- `reference.tif`: mapa de referência
 - `prediction.tif`: mapa predito
 
 Os rasters devem estar alinhados espacialmente e ter a mesma grade.
 
-## Execucao
+## Execução
 
 ```bash
 python main.py ^
@@ -19,13 +19,13 @@ python main.py ^
   --prediction dados/prediction.tif
 ```
 
-## Saidas
+## Saídas
 
 - `resultados/classification_report.txt`
 - `resultados/confusion_matrix.png`
 
-## Discussao em sala
+## Discussão em sala
 
-- Quais classes estao sendo confundidas?
-- A validacao indica problema de amostragem, sensor ou metodo?
-- O que seria necessario para melhorar a confiabilidade do mapa?
+- Quais classes estão sendo confundidas?
+- A validação indica problema de amostragem, sensor ou método?
+- O que seria necessário para melhorar a confiabilidade do mapa?

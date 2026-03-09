@@ -17,10 +17,10 @@ from scripts.rs_utils import read_raster  # noqa: E402
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Valida uma classificacao raster com matriz de confusao.")
-    parser.add_argument("--reference", required=True, help="Raster de referencia.")
+    parser = argparse.ArgumentParser(description="Valida uma classificação raster com matriz de confusão.")
+    parser.add_argument("--reference", required=True, help="Raster de referência.")
     parser.add_argument("--prediction", required=True, help="Raster classificado.")
-    parser.add_argument("--outdir", default="resultados", help="Diretorio de saida.")
+    parser.add_argument("--outdir", default="resultados", help="Diretório de saída.")
     return parser.parse_args()
 
 
@@ -44,7 +44,7 @@ def main() -> None:
 
     fig, ax = plt.subplots(figsize=(6, 6))
     ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=labels).plot(cmap="Greens", ax=ax)
-    ax.set_title("Matriz de confusao")
+    ax.set_title("Matriz de confusão")
     plt.tight_layout()
     fig.savefig(outdir / "confusion_matrix.png", dpi=180, bbox_inches="tight")
     plt.close(fig)

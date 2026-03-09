@@ -1,4 +1,4 @@
-"""Funcoes didaticas para aulas de sensoriamento remoto."""
+"""Funções didáticas para aulas de sensoriamento remoto."""
 
 from __future__ import annotations
 
@@ -19,7 +19,7 @@ def percentile_stretch(array: np.ndarray, lower: float = 2, upper: float = 98) -
 
 
 def describe_band(array: np.ndarray) -> dict[str, float]:
-    """Resume uma banda com metricas simples."""
+    """Resume uma banda com métricas simples."""
     return {
         "min": float(np.nanmin(array)),
         "max": float(np.nanmax(array)),
@@ -29,7 +29,7 @@ def describe_band(array: np.ndarray) -> dict[str, float]:
 
 
 def compute_ndvi(nir: np.ndarray, red: np.ndarray) -> np.ndarray:
-    """Calcula o NDVI com protecao contra divisao por zero."""
+    """Calcula o NDVI com proteção contra divisão por zero."""
     denominator = nir + red
     return np.divide(
         nir - red,
@@ -51,7 +51,7 @@ def compute_ndwi(green: np.ndarray, nir: np.ndarray) -> np.ndarray:
 
 
 def plot_single_band(array: np.ndarray, title: str, cmap: str = "viridis") -> None:
-    """Plota uma banda unica."""
+    """Plota uma banda única."""
     fig, ax = plt.subplots(figsize=(6, 5))
     image = ax.imshow(array, cmap=cmap)
     ax.set_title(title)
@@ -61,7 +61,7 @@ def plot_single_band(array: np.ndarray, title: str, cmap: str = "viridis") -> No
 
 
 def plot_rgb(red: np.ndarray, green: np.ndarray, blue: np.ndarray, title: str) -> None:
-    """Plota uma composicao RGB com realce simples."""
+    """Plota uma composição RGB com realce simples."""
     rgb = np.dstack(
         [
             percentile_stretch(red),
@@ -77,7 +77,7 @@ def plot_rgb(red: np.ndarray, green: np.ndarray, blue: np.ndarray, title: str) -
 
 
 def read_raster(path: str | Path, band_index: int = 1) -> tuple[np.ndarray, dict]:
-    """Le uma banda raster e retorna array e perfil."""
+    """Lê uma banda raster e retorna array e perfil."""
     import rasterio
 
     with rasterio.open(path) as src:
@@ -92,7 +92,7 @@ def write_raster(
     output_path: str | Path,
     dtype: str = "float32",
 ) -> None:
-    """Escreve um raster de banda unica usando o perfil de referencia."""
+    """Escreve um raster de banda única usando o perfil de referência."""
     import rasterio
 
     profile = reference_profile.copy()
@@ -110,7 +110,7 @@ def save_single_band_preview(
     title: str,
     cmap: str = "viridis",
 ) -> None:
-    """Salva a visualizacao de uma banda ou indice em PNG."""
+    """Salva a visualização de uma banda ou índice em PNG."""
     fig, ax = plt.subplots(figsize=(6, 5))
     image = ax.imshow(array, cmap=cmap)
     ax.set_title(title)
@@ -130,7 +130,7 @@ def save_rgb_preview(
     output_path: str | Path,
     title: str,
 ) -> None:
-    """Salva composicao RGB em PNG."""
+    """Salva composição RGB em PNG."""
     rgb = np.dstack(
         [
             percentile_stretch(red),
@@ -150,16 +150,16 @@ def save_rgb_preview(
 
 
 def stack_features(scene: dict[str, np.ndarray], band_names: Iterable[str]) -> np.ndarray:
-    """Empilha bandas 2D em uma matriz 2D para aprendizado de maquina."""
+    """Empilha bandas 2D em uma matriz 2D para aprendizado de máquina."""
     return np.column_stack([scene[band].ravel() for band in band_names])
 
 
 def make_synthetic_scene(height: int = 240, width: int = 240, seed: int = 42) -> dict[str, np.ndarray]:
-    """Gera uma cena sintetica com tres classes para fins didaticos.
+    """Gera uma cena sintética com três classes para fins didáticos.
 
     Classes:
-    0 = agua
-    1 = vegetacao
+    0 = água
+    1 = vegetação
     2 = solo exposto
     """
     rng = np.random.default_rng(seed)

@@ -23,7 +23,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--nir-t1", required=True, help="Banda NIR da data 1.")
     parser.add_argument("--red-t2", required=True, help="Banda vermelha da data 2.")
     parser.add_argument("--nir-t2", required=True, help="Banda NIR da data 2.")
-    parser.add_argument("--outdir", default="resultados", help="Diretorio de saida.")
+    parser.add_argument("--outdir", default="resultados", help="Diretório de saída.")
     return parser.parse_args()
 
 
@@ -54,7 +54,7 @@ def main() -> None:
     write_raster(ndvi_t2, profile, outdir / "ndvi_t2.tif")
     write_raster(delta_ndvi, profile, outdir / "delta_ndvi.tif")
 
-    print(f"Delta NDVI medio: {float(delta_ndvi.mean()):.4f}")
+    print(f"Delta NDVI médio: {float(delta_ndvi.mean()):.4f}")
     print(f"Arquivos gerados em: {outdir.resolve()}")
 
 

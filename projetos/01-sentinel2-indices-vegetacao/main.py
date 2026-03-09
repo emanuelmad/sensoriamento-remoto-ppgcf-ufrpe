@@ -25,7 +25,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--green", required=True, help="Caminho da banda B03.")
     parser.add_argument("--red", required=True, help="Caminho da banda B04.")
     parser.add_argument("--nir", required=True, help="Caminho da banda B08.")
-    parser.add_argument("--outdir", default="resultados", help="Diretorio de saida.")
+    parser.add_argument("--outdir", default="resultados", help="Diretório de saída.")
     return parser.parse_args()
 
 
