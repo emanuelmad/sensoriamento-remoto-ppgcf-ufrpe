@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from pathlib import Path
 from typing import Iterable
 
 import matplotlib.pyplot as plt
@@ -73,6 +74,79 @@ def plot_rgb(red: np.ndarray, green: np.ndarray, blue: np.ndarray, title: str) -
     ax.set_title(title)
     ax.set_axis_off()
     plt.tight_layout()
+
+
+def read_raster(path: str | Path, band_index: int = 1) -> tuple[np.ndarray, dict]:
+    """Le uma banda raster e retorna array e perfil."""
+    import rasterio
+
+    with rasterio.open(path) as src:
+        array = src.read(band_index).astype("float32")
+        profile = src.profile.copy()
+    return array, profile
+
+
+def write_raster(
+    array: np.ndarray,
+    reference_profile: dict,
+    output_path: str | Path,
+    dtype: str = "float32",
+) -> None:
+    """Escreve um raster de banda unica usando o perfil de referencia."""
+    import rasterio
+
+    profile = reference_profile.copy()
+    profile.update(dtype=dtype, count=1)
+    output = Path(output_path)
+    output.parent.mkdir(parents=True, exist_ok=True)
+
+    with rasterio.open(output, "w", **profile) as dst:
+        dst.write(array.astype(dtype), 1)
+
+
+def save_single_band_preview(
+    array: np.ndarray,
+    output_path: str | Path,
+    title: str,
+    cmap: str = "viridis",
+) -> None:
+    """Salva a visualizacao de uma banda ou indice em PNG."""
+    fig, ax = plt.subplots(figsize=(6, 5))
+    image = ax.imshow(array, cmap=cmap)
+    ax.set_title(title)
+    ax.set_axis_off()
+    fig.colorbar(image, ax=ax, shrink=0.75)
+    output = Path(output_path)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    plt.tight_layout()
+    fig.savefig(output, dpi=180, bbox_inches="tight")
+    plt.close(fig)
+
+
+def save_rgb_preview(
+    red: np.ndarray,
+    green: np.ndarray,
+    blue: np.ndarray,
+    output_path: str | Path,
+    title: str,
+) -> None:
+    """Salva composicao RGB em PNG."""
+    rgb = np.dstack(
+        [
+            percentile_stretch(red),
+            percentile_stretch(green),
+            percentile_stretch(blue),
+        ]
+    )
+    fig, ax = plt.subplots(figsize=(6, 6))
+    ax.imshow(rgb)
+    ax.set_title(title)
+    ax.set_axis_off()
+    output = Path(output_path)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    plt.tight_layout()
+    fig.savefig(output, dpi=180, bbox_inches="tight")
+    plt.close(fig)
 
 
 def stack_features(scene: dict[str, np.ndarray], band_names: Iterable[str]) -> np.ndarray:

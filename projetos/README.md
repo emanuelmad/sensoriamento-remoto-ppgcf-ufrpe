@@ -1,14 +1,17 @@
 # Projetos
 
-Esta pasta deve reunir estudos de caso, atividades aplicadas e trabalhos finais.
+Esta pasta concentra estudos de caso e projetos aplicados da disciplina.
 
-## Estrutura sugerida
+## Estudos de caso disponiveis
 
-- uma subpasta por projeto
-- `README.md` com objetivo, dados e resultados
-- notebook ou script principal
-- resultados leves versionados
+- [01-sentinel2-indices-vegetacao](./01-sentinel2-indices-vegetacao/README.md)
+- [02-landsat-serie-temporal-vegetacao](./02-landsat-serie-temporal-vegetacao/README.md)
+- [03-mapbiomas-validacao-classificacao](./03-mapbiomas-validacao-classificacao/README.md)
+- [00-template](./00-template/README.md)
 
-## Referencia inicial
+## Uso recomendado
 
-Use `00-template/` como ponto de partida para novos projetos.
+- apresente o problema em sala
+- rode o script principal com dados reais
+- discuta limites, incertezas e interpretacao
+- converta o fluxo em atividade para os alunos

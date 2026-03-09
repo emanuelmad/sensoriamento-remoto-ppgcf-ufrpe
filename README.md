@@ -4,17 +4,24 @@
 
 Repositorio da disciplina de Sensoriamento Remoto do Programa de Pos-Graduacao em Ciencias Florestais da UFRPE.
 
-Este projeto foi organizado para funcionar como base viva da disciplina: aulas, leituras, codigos, notebooks e estudos de caso no mesmo lugar.
+Esta base foi organizada para funcionar como um repositorio de curso moderno: teoria, pratica, codigos, projetos e documentacao no mesmo lugar.
 
-## Visao geral
+## O que este repositorio entrega
 
-- Materiais de aula em portugues e ingles
-- PDFs para distribuicao rapida
-- Base pronta para notebooks e praticas computacionais
-- Estrutura para projetos aplicados e estudos de caso
-- Ambiente reproduzivel para evoluir a disciplina ao longo dos semestres
+- trilha didatica organizada por modulos
+- slides e PDFs para aula
+- notebooks introdutorios para demonstracoes em sala
+- scripts reutilizaveis para rotinas de sensoriamento remoto
+- estudos de caso prontos para adaptacao por semestre
+- estrutura limpa para publicar no GitHub e evoluir ao longo do tempo
 
-## Estrutura
+## Para quem este material foi desenhado
+
+- estudantes de pos-graduacao com foco em geotecnologias, ciencias florestais e analise ambiental
+- turmas que precisam combinar base conceitual com aplicacao computacional
+- disciplinas que desejam sair de uma pasta de arquivos soltos e virar um repositorio vivo
+
+## Estrutura do curso
 
 ```text
 Aulas_SR/
@@ -35,31 +42,35 @@ Aulas_SR/
 `-- scripts/
 ```
 
-## Modulos do curso
+## Modulos
 
-| Modulo | Tema | Materiais principais |
-| --- | --- | --- |
-| 01 | Introducao e historico | `Aula 1 - historico.pdf`, `Aula 2 - Definicoes.pdf`, `Além_da_Visao.pptx` |
-| 02 | Fundamentos fisicos | `Aula 3 - Principios Fisicos do SR.pdf`, `Aula 4 - Interacoes da radiacao.pdf`, `A_Jornada_da_Luz.pptx`, `Fisica_do_Sensoriamento.pptx` |
-| 03 | Fotografia aerea e visao orbital | `A_Ascensao_da_Fotografia_Aerea.pptx`, `Anatomia_da_Fotografia_Aerea.pptx`, `Evolution_of_Orbital_Vision.pptx`, `Metric_Photogrammetry.pptx` |
-| 04 | Imagem digital e interpretacao | `Digital_Image_Analysis.pptx`, `Decoding_Aerial_Imagery.pptx`, `Remote_Sensing_Anatomy.pptx`, `The_Pixel_Journey.pptx` |
-| 05 | Vegetacao e aplicacoes | `Decoding_the_Green.pptx`, `Indices de vegetacao.pdf`, `Aplicacoes de Sensoriamento Remoto 2ed_DEG.pdf` |
+| Modulo | Foco | Base teorica | Ponte pratica |
+| --- | --- | --- | --- |
+| 01 | Introducao e historico | Conceitos, evolucao e aplicacoes | Notebook 01 |
+| 02 | Fundamentos fisicos | Radiacao, interacoes e resposta espectral | Notebook 02 |
+| 03 | Sensores e plataformas | Fotografia aerea, sensores orbitais e resolucoes | Projeto 01 |
+| 04 | Imagem digital | Pixel, bandas, composicoes e interpretacao | Notebook 03 |
+| 05 | Analise aplicada | Indices, classificacao e validacao | Projetos 02 e 03 |
 
-## Navegacao rapida
+## Comece por aqui
 
 - Materiais de aula: [aulas/README.md](./aulas/README.md)
 - Cronograma sugerido: [docs/cronograma.md](./docs/cronograma.md)
-- Notebooks da disciplina: [notebooks/README.md](./notebooks/README.md)
-- Projetos aplicados: [projetos/README.md](./projetos/README.md)
-- Scripts utilitarios: [scripts/README.md](./scripts/README.md)
-- Base de dados e instrucoes: [dados/README.md](./dados/README.md)
+- Ementa e objetivos: [docs/ementa.md](./docs/ementa.md)
+- Metodologia da disciplina: [docs/metodologia.md](./docs/metodologia.md)
+- Notebooks iniciais: [notebooks/README.md](./notebooks/README.md)
+- Estudos de caso: [projetos/README.md](./projetos/README.md)
+- Fontes de dados: [dados/README.md](./dados/README.md)
+
+## Estudos de caso incluidos
+
+| Projeto | Tema | Entrada esperada | Saidas |
+| --- | --- | --- | --- |
+| [01-sentinel2-indices-vegetacao](./projetos/01-sentinel2-indices-vegetacao/README.md) | NDVI e NDWI com Sentinel-2 | Bandas B02, B03, B04 e B08 | RGB, NDVI, NDWI e GeoTIFFs |
+| [02-landsat-serie-temporal-vegetacao](./projetos/02-landsat-serie-temporal-vegetacao/README.md) | Delta NDVI em duas datas | Bandas vermelha e NIR de t1 e t2 | NDVI t1, NDVI t2 e delta NDVI |
+| [03-mapbiomas-validacao-classificacao](./projetos/03-mapbiomas-validacao-classificacao/README.md) | Avaliacao de classificacao tematica | Raster de referencia e raster predito | Relatorio textual e matriz de confusao |
 
 ## Ambiente de execucao
-
-Ha duas opcoes prontas:
-
-- `requirements.txt` para `pip`
-- `environment.yml` para `conda` ou `mamba`
 
 Instalacao com `pip`:
 
@@ -76,30 +87,25 @@ conda env create -f environment.yml
 conda activate sensoriamento-remoto
 ```
 
-## Como evoluir o curso
+## Fluxo recomendado para a disciplina
 
-1. Adicione um notebook por tema ou aula.
-2. Transforme exemplos recorrentes em funcoes reutilizaveis dentro de `scripts/`.
-3. Organize cada atividade pratica ou estudo de caso em `projetos/`.
-4. Mantenha dados pequenos versionados e dados grandes apenas documentados em `dados/`.
+1. Apresente o conceito no slide.
+2. Leve a turma para um notebook curto.
+3. Mostre um projeto aplicado com dados reais.
+4. Feche com interpretacao tecnica e implicacoes ambientais ou florestais.
 
-## Proximos incrementos recomendados
+## Evolucao por semestre
 
-- Adicionar um estudo de caso com Sentinel-2 para indices espectrais
-- Criar um notebook de classificacao supervisionada com dados reais
-- Publicar amostras pequenas de dados raster para aulas demonstrativas
-- Versionar o curso por semestre com tags Git
+- crie uma branch ou tag por periodo letivo
+- adicione novos notebooks em `notebooks/`
+- converta trechos repetidos em funcoes dentro de `scripts/`
+- publique novos estudos de caso dentro de `projetos/`
 
 ## Git
 
-Para registrar a estrutura local:
+O repositorio local ja foi inicializado e recebeu commit inicial.
 
-```bash
-git add .
-git commit -m "Moderniza repositorio da disciplina de sensoriamento remoto"
-```
-
-Para publicar depois no GitHub:
+Para publicar no GitHub:
 
 ```bash
 git remote add origin <URL_DO_REPOSITORIO>
