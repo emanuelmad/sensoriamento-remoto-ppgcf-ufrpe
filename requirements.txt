@@ -1,0 +1,12 @@
+numpy
+pandas
+matplotlib
+jupyterlab
+notebook
+rasterio
+rioxarray
+xarray
+geopandas
+scikit-image
+scikit-learn
+folium

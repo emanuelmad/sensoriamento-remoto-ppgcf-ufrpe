@@ -1,0 +1,19 @@
+name: sensoriamento-remoto
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - notebook
+  - rasterio
+  - rioxarray
+  - xarray
+  - geopandas
+  - scikit-image
+  - scikit-learn
+  - pip
+  - pip:
+      - folium
